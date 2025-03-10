@@ -2,7 +2,7 @@ workflows:
   ios-build:
     name: iOS Build
     max_build_duration: 60 # Tempo máximo de execução (em minutos)
-    instance_type: mac_mini
+    instance_type: mac_minimacos-xcode-12
     environment:
       flutter: stable
     scripts:
